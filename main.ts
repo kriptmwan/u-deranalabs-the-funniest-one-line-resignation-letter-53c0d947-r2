@@ -1,3 +1,5 @@
+// Resignation Letter — a retry loop quits after 4,096 identical retries.
+// Writes the one-line letter to /output/entry.txt (gate: 1-140 chars).
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
